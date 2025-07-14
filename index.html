@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cristian Estupiñan</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/navbar.css" />
+    <link rel="stylesheet" href="css/profile.css" />
+    <link rel="stylesheet" href="css/skills.css" />
+    <link rel="stylesheet" href="css/experiences.css" />
+    <link rel="stylesheet" href="css/contact.css" />
+    <script defer src="js/app.js"></script>
+  </head>
+  <body>
+    <header class="topheader">
+      <nav class="topnav">
+        <a href="#" class="logo">
+          <img
+            height="50"
+            width="50"
+            src="img/nube.png"
+            alt="programador"
+          />
+          <div class="logotype">
+            Cristian Estupiñan<br />
+            { Site Reliability Engineering }
+          </div>
+        </a>
+        <button class="open-menu" aria-label="Abrir menú">
+          <img src="img/hamburger-icon.svg" alt="abrir menú" />
+        </button>
+        <ul class="menu">
+          <button class="close-menu" aria-label="Cerrar menú">
+            <img src="img/close-icon.svg" alt="cerrar menú" />
+          </button>
+          <li><a href="#profile" class="selected">Perfil</a></li>
+          <li><a href="#experience">Experiencia</a></li>
+          <li><a href="#skills">Habilidades</a></li>
+          <li><a href="#contact">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="horizontal-padding vertical-padding">
+      <section class="profile" id="profile">
+        <div class="profile-info">
+          <h1 class="profile-title">Hola, soy <br />Cristian</h1>
+          <p class="profile-details">
+            SRE con más de 6 años de experiencia en DevOps, certificado en AWS y Kubernetes (CKA). Especializado en arquitecturas de nube y GitOps, enfocado en implementar infraestructuras escalables y seguras. Experto en automatización y optimización de procesos, liderando proyectos de transformación digital que mejoran eficiencia, seguridad y reducen costos, creando ecosistemas de TI robustos y eficientes.
+          </p>
+          <span class="profile-img-section">
+            <img
+              class="profile-img2"
+              src="img/aws-certified-cloud-practitioner.png"
+            />
+            <img
+              class="profile-img2"
+              src="img/aws-certified-s-a.png"
+            />
+            <img
+              class="profile-img2"
+              src="img/cka-certified-.png"
+            />
+            <img
+              class="profile-img2"
+              src="img/KCNA1.png"
+            />
+          </span>
+          <!-- <p>
+            <a class="profile-btn" href="https://drive.google.com/file/d//view?usp=sharing" target="_blank" rel="noopener noreferrer"
+            >Descargar cv</a>
+          </p> -->
+          
+          <!-- <p>
+          <a class="profile-btn" href="/Curriculum-Crisitan-Estupiñan.pdf" download
+          >Descargar cv</a
+          > -->
+          </p>
+        </div>
+        <span class="profile-img-section">
+          <img
+            class="profile-img"
+            src="img/professional-profile.png"
+            alt="programador"
+          />
+          <div class="profile-img-line"></div>
+        </span>
+      </section>
+    </div>
+
+    <section class="experiences" id="experience">
+      <img src="img/wave.svg" alt="división" class="wave" />
+      <div class="experiences-body">
+        <h2 class="experiences-title">Experiencia</h2>
+        <div class="experiences-grid">
+          <div class="empty"></div>
+          <div class="line"></div>
+          <div class="experience">
+            <!-- <div class="experience-date">2023</div>  -->
+            <div class="experience-company">Sophos Solutions, Colombia</div>
+            <div class="experience-position">Site Reliability Engineer SRE</div>
+            <div class="experience-description">
+              Migración y Arquitectura Cloud: Dirigí un equipo multidisciplinario en la migración de aplicaciones on-premise a AWS, logrando una reducción de costos superior al 80% mediante la implementación de EKS, Nginx, y ALB Ingress. Aseguré la adopción de prácticas de DevSecOps, integrando herramientas de seguridad como Trivy y AWS Secret Manager, fortaleciendo la postura de seguridad del entorno cloud.
+            </div>
+          </div>
+          <div class="experience experience_left">
+            <!-- <div class="experience-date">2023</div> -->
+            <div class="experience-company">Samtel Consultores, Colombia</div>
+            <div class="experience-position">DevOps Engineer </div>
+            <div class="experience-description">
+              Estrategias DevOps y Automatización: Lideré la implementación de procesos CI/CD en múltiples plataformas cloud (AWS, Azure, GCP) utilizando Terraform, Docker, Kubernetes y Jenkins. Encabecé un equipo de ingenieros DevOps en la optimización de la infraestructura y la mejora de la seguridad de aplicaciones, logrando una mayor eficiencia operativa y reduciendo el tiempo de despliegue en un 30%.
+            </div>
+          </div>         
+          
+        </div>
+      </div>
+      <img src="img/wave.svg" alt="división" class="wave wave_bottom" />
+    </section>
+
+    <div class="horizontal-padding vertical-padding">
+      <section class="skills" id="skills">
+        <h2 class="skills-title">Habilidades</h2>
+        <ul class="skills-list">
+          <li class="skills-skill">AWS Certified Solutions Architect – Associate</li>
+          <li class="skills-skill">Certified Kubernetes Administrator (CKA)</li>
+          <li class="skills-skill">Kubernetes and Cloud Native Associate (KCNA)</li>
+          <li class="skills-skill">Cloud Native Technologies</li>
+          <li class="skills-skill">AWS (EC2, VPC, RDS, S3, IAM, ALB, NLB, Route 53)</li>
+          <li class="skills-skill">EKS</li>
+          <li class="skills-skill">DevOps</li>
+          <li class="skills-skill">Terraform</li>
+          <li class="skills-skill">Kubernetes (Helm, Istio, ArgoCD, Kustomize)</li>
+          <li class="skills-skill">Prometheus & Grafana</li>
+          <li class="skills-skill">Azure DevOps</li>
+          <li class="skills-skill">Azure Portal</li>
+          <li class="skills-skill">GCP</li>
+          <li class="skills-skill">Docker</li>
+          <li class="skills-skill">CI/CD (Jenkins, GitHub Actions, Azure Pipelines)</li>
+          <li class="skills-skill">Git</li>
+          <li class="skills-skill">GitHub</li>
+          <li class="skills-skill">SonarQube</li>
+          <li class="skills-skill">Trivy</li>
+          <li class="skills-skill">OWASP Dependency-Check</li>
+          <li class="skills-skill">Linux Server (Ubuntu, CentOS)</li>
+          <li class="skills-skill">Windows Server</li>
+          <li class="skills-skill">Active Directory</li>
+          <li class="skills-skill">Group Policy</li>
+          <li class="skills-skill">Certificados SSL/TLS</li>
+          <li class="skills-skill">Redes y Firewalls</li>
+          <li class="skills-skill">DNS</li>
+          <li class="skills-skill">VPN (IPSec/OpenVPN)</li>
+          <li class="skills-skill">VPC</li>
+          <li class="skills-skill">DigitalOcean</li>
+          <li class="skills-skill">ECS</li>
+          <li class="skills-skill">CloudFormation</li>
+          <li class="skills-skill">Load Balancer (ALB, NLB)</li>
+          <li class="skills-skill">Ingress Controllers (Nginx, ALB Ingress)</li>
+          <li class="skills-skill">Auto Scaling Groups</li>
+          <li class="skills-skill">HPA (Horizontal Pod Autoscaler)</li>
+          <li class="skills-skill">Serverless (AWS Lambda)</li>
+          <li class="skills-skill">PostgreSQL / MongoDB</li>
+          <li class="skills-skill">Observabilidad y Logs (CloudWatch, Loki)</li>
+          <li class="skills-skill">Seguridad en la nube</li>
+          <li class="skills-skill">Alta Disponibilidad y Alta Concurrencia</li>
+          <li class="skills-skill">Infraestructura como Código</li>
+          <li class="skills-skill">Automatización de operaciones Kubernetes</li>
+          <li class="skills-skill">Pruebas de resiliencia y recuperación</li>
+          <li class="skills-skill">Entre otros…</li>
+        </ul>
+
+
+        </ul>
+      </section>
+    </div>
+
+    <div class="horizontal-padding vertical-padding">
+      <section class="contact" id="contact">
+        <h2 class="contact-title">Contacto</h2>
+        <div class="contact-details">
+          <div class="contact-details-group">
+            <p class="contact-label">Dirección:</p>
+            <p class="contact-text">Colombia</p>
+          </div>
+          <!-- <div class="contact-details-group">
+            <p class="contact-label">Email:</p>
+            <p class="contact-text">@gmail.com</p>
+          </div> -->
+          <!-- <div class="contact-details-group">
+            <p class="contact-text">
+              Envie su mensaje y con gusto le responderé
+            </p>
+          </div> -->
+        </div>
+        
+          
+        </form>
+        <nav class="social">
+          <ul class="social-list">
+            <li>
+              <a href="https://github.com/Cristianguerrer" class="social-link">
+                <img src="img/social/github.svg" alt="github profile" />
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/cristian-estupi%C3%B1an-2bab9a21b"class="social-link">
+                <img src="img/social/linkedin.svg" alt="linkedin profile" />
+              </a>
+            </li>
+           </ul>
+        </nav>
+      </section>
+    </div>
+  </body>
+</html>
